@@ -82,8 +82,11 @@ def interact_model(
                 for i in range(batch_size):
                     generated += 1
                     text = enc.decode(out[i])
-                    print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
+                    print("=" * 80)
                     print(text)
+                    f = open("jangledOutput.txt", "a")
+                    f.write(text)
+                    f.close()
             print("=" * 80)
 
 if __name__ == '__main__':
