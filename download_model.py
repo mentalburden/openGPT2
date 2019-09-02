@@ -4,7 +4,7 @@ import requests
 from tqdm import tqdm
 
 if len(sys.argv) != 2:
-    print('You must enter the model name as a parameter, e.g.: download_model.py 124M')
+    print('124M, 355M, or 774M')
     sys.exit(1)
 
 model = sys.argv[1]
