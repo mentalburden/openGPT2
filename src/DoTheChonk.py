@@ -75,6 +75,7 @@ def interact_model(
                     f.write(text)
                     f.close()
             print("=" * 80)
+            break
 
 if __name__ == '__main__':
     fire.Fire(interact_model)
