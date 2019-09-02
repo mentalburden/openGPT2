@@ -67,6 +67,11 @@ def interact_model(
                     print(text)
                     #send output to file for 
                     f = open("jangledOutput.txt", "a+")                    
+                    f.write("\n\n\n")
+                    f.write("========================================")
+                    f.write("==========USER INPUT SEPERATOR==========")
+                    f.write("========================================")
+                    f.write("\n\n\n")
                     f.write(text)
                     f.close()
             print("=" * 80)
