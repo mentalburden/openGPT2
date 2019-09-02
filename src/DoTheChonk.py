@@ -3,7 +3,7 @@
 import fire
 import json
 import os
-import numpy as np
+#import numpy as np // no longer needed because seed'ing will be handled by the input text file
 import tensorflow as tf
 
 import model, sample, encoder
